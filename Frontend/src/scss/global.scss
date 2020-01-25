@@ -1,0 +1,54 @@
+//@import 'src/scss/global.scss'
+
+// Colors
+$primaryColor: rgba(83, 69, 242, 0.75); //Dark Lavender
+$secondaryColor: rgba(205, 200, 255, 0.9); //Light Lavender
+$thirdColor: rgba(78, 6, 233, 1); // Bright Purple  #506cf0 //#4e06e9
+$ice: rgba(28, 122, 246, 0.88);
+
+// Animation Colors
+$lightBlue: #66fcf1; //#51d0de; //#66FCF1 //#5ab9ea //#84ceeb //#33FFED //#73CFF8 // #2AABE4 // #3feee6
+$pastelPurple: #5252d4;
+$brightRed: #ff3a22; //#FE7860
+$yellow: #ffdc6a; //#FABF54 //#FFCD24
+$brightOrange: #ff8800; // #FF8800  ff5a09
+$peach: #dea6af;
+$tan: #e6dbc9;
+$pastleRed: #f78888;
+
+// Shadows
+$shadow1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$shadow2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+$shadow3: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+$shadow1Drop: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.24));
+
+// // Video
+// $cardWidthValue: 55;
+// $cardWidth: #{$cardWidthValue}vw;
+// $cardHeight: #{$cardWidthValue * 9/16}vw;
+
+// $cardWidthMobileValue: 86;
+// $cardWidthMobile: #{$cardWidthMobileValue}vw;
+// $cardHeightMobile: #{$cardWidthMobileValue * 9/16}vw;
+
+// $screenBorderRadius: 6px;
+
+// Fonts
+$font-size-base: 1rem;
+$font-sizes: (
+  1: $font-size-base * 0.25,
+  2: $font-size-base * 0.5,
+  3: $font-size-base * 0.75,
+  4: $font-size-base * 0.875,
+  5: $font-size-base,
+  6: $font-size-base * 1.125,
+  7: $font-size-base * 1.25,
+  8: $font-size-base * 1.5,
+  9: $font-size-base * 1.75,
+  10: $font-size-base * 2
+);
+
+@import '~bootstrap/scss/_functions.scss';
+@import '~bootstrap/scss/_variables.scss';
+@import '~bootstrap/scss/_mixins.scss';
