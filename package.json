@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon ./Backend/server.js & webpack-dev-server --inline --hot --open 'Google Chrome'",
     "production": "webpack --mode production && nodemon ./Backend/server.js",
+    "server": "nodemon ./Backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
