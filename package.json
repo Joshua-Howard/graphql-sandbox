@@ -27,7 +27,7 @@
   "homepage": "https://github.com/Joshua-Howard/graphql-sandbox#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-graphql": "^0.9.0",
     "graphql": "^14.5.8",
     "pg": "^7.17.1",
